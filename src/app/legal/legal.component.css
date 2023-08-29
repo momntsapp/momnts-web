@@ -1,0 +1,25 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.content {
+  text-align: left;
+  max-width: 800px;
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    align-items: center;
+  }
+}
