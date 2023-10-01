@@ -1,13 +1,13 @@
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Distribute items evenly across the container */
+  justify-content: space-between; 
   justify-content: center;
   padding: 10px;
 }
 
 .footer-button {
-  color: white;
+  color: #7A807C;
   border: none;
   padding: 0px 10px;
   cursor: pointer;
@@ -16,35 +16,26 @@
 .divider {
   width: 1px;
   height: 20px;
-  background-color: white;
+  background-color: #7A807C;
   margin: 0 10px;
 }
 
 .dividerh {
-  flex: 1; /* Take up remaining space */
+  flex: 1;
   height: 1px;
   background-color: white;
   margin: 0 10px;
-  border: none; /* Remove default border */
+  border: none;
 }
 
 @media (max-width: 768px) {
-  .row {
-    flex-direction: column; /* Stack rows vertically in mobile view */
-  }
-
-  .content {
-    flex-basis: 100%; /* Take full width in mobile view */
-    margin-bottom: 10px; /* Add spacing between content in mobile view */
-  }
-
   .footer {
-    text-align: center;
-    flex-direction: column; /* Stack footer items vertically in mobile view */
+    flex-wrap: wrap;
   }
 
-  .footer-button {
-    margin-top: 5px;
+  .footer-button,
+  .divider {
+    flex-basis: 0%;
   }
 
   .divider {

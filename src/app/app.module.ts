@@ -24,6 +24,7 @@ import { LegalComponent } from './legal/legal.component';
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+
 })
 export class AppModule { }

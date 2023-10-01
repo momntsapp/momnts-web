@@ -11,8 +11,8 @@ const routes: Routes = [
 
   { path: 'landing-page', component: LandingPageComponent },
   //{ path: 'admin', component: AdminComponent },
- // { path: 'about', component: AboutComponent },
- // { path: 'legal', component: LegalComponent },
+  // { path: 'about', component: AboutComponent },
+  // { path: 'legal', component: LegalComponent },
 ];
 
 @NgModule({
