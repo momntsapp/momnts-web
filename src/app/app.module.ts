@@ -8,6 +8,7 @@ import { AdminComponent } from './admin/admin.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AboutComponent } from './about/about.component';
 import { LegalComponent } from './legal/legal.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { LegalComponent } from './legal/legal.component';
     LandingPageComponent,
     AboutComponent,
     LegalComponent,
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,

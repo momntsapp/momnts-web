@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer-button {
+  color: #7A807C;
+  border: none;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.divider {
+  width: 1px;
+  height: 20px;
+  background-color: #7A807C;
+  margin: 0 10px;
+}
+
+.dividerh {
+  flex: 1;
+  height: 1px;
+  background-color: white;
+  margin: 0 10px;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .footer-button,
+  .divider {
+    flex-basis: 0%;
+  }
+
+  .divider {
+    display: none;
+  }
+}
