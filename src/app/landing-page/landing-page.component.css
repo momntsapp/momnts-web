@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   justify-content: center;
   padding: 10px;
 }
@@ -11,13 +11,20 @@
   border: none;
   padding: 0px 10px;
   cursor: pointer;
+  transition: all 0.3s ease;
+
+
+}
+.footer-button:hover {
+  padding: 15px 25px;
+  font-size: 16px;
 }
 
 .divider {
   width: 1px;
   height: 20px;
   background-color: #7A807C;
-  margin: 0 10px;
+  margin: 20 20px;
 }
 
 .dividerh {

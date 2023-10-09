@@ -1,1 +1,8 @@
-<p>about works!</p>
+<div class="card-container">
+  <div class="image-card" (mouseover)="showText = true" (mouseout)="showText = false">
+    <img src="https://user-images.githubusercontent.com/88948653/238162143-7334eaf9-405f-4b06-8186-2a110003d07c.jpg" alt="Your Name">
+    <div class="text-overlay">
+      <p *ngIf="showText">Your About Me Text Goes Here</p>
+    </div>
+  </div>
+</div>
