@@ -9,11 +9,13 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', component: LandingPageComponent },
-  { path: '**', component: PagenotfoundComponent },
   { path: 'landing-page', component: LandingPageComponent },
   { path: 'admin', component: AdminComponent },
-  // { path: 'about', component: AboutComponent },
-  // { path: 'legal', component: LegalComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'legal', component: LegalComponent },
+  { path: '**', component: PagenotfoundComponent },
+
+
 ];
 
 @NgModule({
