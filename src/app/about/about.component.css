@@ -112,19 +112,4 @@ main {
   border: none;
 }
 
-@media (max-width: 768px) {
-  .footer {
-    flex-wrap: wrap;
-  }
-
-  .footer-button,
-  .divider {
-    flex-basis: 0%;
-  }
-
-  .divider {
-    display: none;
-  }
-}
-
 
