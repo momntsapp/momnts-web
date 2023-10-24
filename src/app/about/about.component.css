@@ -1,5 +1,6 @@
 main {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -13,7 +14,6 @@ main {
   padding: 10px;
 }
 .card {
-  padding: 10px;
   flex-direction: row;
   width: 24rem;
   height: 36rem;
@@ -73,33 +73,58 @@ main {
   vertical-align: middle;
 }
 
-@media (max-width: 1000px) {
-  .card {
 
-    width: 40rem;
-    height: 60rem;
-  }
-  .textSize {
-    font-size: 1rem;
-  }
-  main {
-    flex-direction: column;
 
-  }
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  padding: 10px;
 }
 
+.footer-button {
+  color: #7A807C;
+  border: none;
+  padding: 0px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+
+}
+.footer-button:hover {
+  padding: 15px 25px;
+  font-size: 16px;
+}
+
+.divider {
+  width: 1px;
+  height: 20px;
+  background-color: #7A807C;
+  margin: 20 20px;
+}
+
+.dividerh {
+  flex: 1;
+  height: 1px;
+  background-color: white;
+  margin: 0 10px;
+  border: none;
+}
 
 @media (max-width: 768px) {
-  .card {
-
-    width: 20rem;
-    height: 28rem;
+  .footer {
+    flex-wrap: wrap;
   }
-  .textSize {
-    font-size: 0.8rem;
-  }
-  main {
-    flex-direction: column;
 
+  .footer-button,
+  .divider {
+    flex-basis: 0%;
+  }
+
+  .divider {
+    display: none;
   }
 }
+
+
