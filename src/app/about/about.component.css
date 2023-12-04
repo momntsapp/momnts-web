@@ -67,7 +67,7 @@ main {
 }
 .card:hover img {
   transition: opacity 0.3s ease-in;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 .material-symbols-outlined {
   vertical-align: middle;
